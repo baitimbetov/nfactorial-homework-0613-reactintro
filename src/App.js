@@ -1,11 +1,11 @@
 import {useState} from 'react';
 import { useMediaQuery } from 'react-responsive';
 import './App.css';
-import fox from "/Users/Galym/Documents/src/hw/0613-react/hw/src/img/fox.jpeg";
-import snow from "/Users/Galym/Documents/src/hw/0613-react/hw/src/img/snow.jpeg";
-import cloud from "/Users/Galym/Documents/src/hw/0613-react/hw/src/img/cloud.jpeg";
-import mountain from "/Users/Galym/Documents/src/hw/0613-react/hw/src/img/mountain.jpeg";
-import flashlight from "/Users/Galym/Documents/src/hw/0613-react/hw/src/img/flashlight.jpeg";
+import fox from "./img/fox.jpeg";
+import snow from "./img/snow.jpeg";
+import cloud from "./img/cloud.jpeg";
+import mountain from "./img/mountain.jpeg";
+import flashlight from "./img/flashlight.jpeg";
 
 
 function App() {
