@@ -1,4 +1,3 @@
-import {useState} from 'react';
 import { useMediaQuery } from 'react-responsive';
 import './App.css';
 import fox from "./img/fox.jpeg";
@@ -7,14 +6,7 @@ import cloud from "./img/cloud.jpeg";
 import mountain from "./img/mountain.jpeg";
 import flashlight from "./img/flashlight.jpeg";
 
-
 function App() {
-  const word1 = "HEY";
-  const word2 = "LET'S";
-  const word3 = "GIVE";
-  const word4 = "ALL";
-  const word5 = "CAN";
-
   const isDesktop = useMediaQuery({ query: "(min-width: 1224px)" });
   const isMobile = useMediaQuery({ query: "(min-width: 480px)" });
 
@@ -31,7 +23,6 @@ return (
             <img className="image" src={flashlight} />
             <div className="central-text">LET'S</div> 
           </div>
-
           <div className="container">
             <img className="image" src={mountain} />
             <div className="central-text">GIVE</div> 
@@ -77,7 +68,6 @@ return (
       }
       </div>
   )
-
 };
 
 export default App;
